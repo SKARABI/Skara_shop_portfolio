@@ -3,7 +3,12 @@
 nav .nav-wrapper {
     position: relative;
     height: 106%;
-    background-color: floralwhite;
+    background-color: ghostwhite;
+}
+
+.logo {
+    margin-top: 7px;
+    margin-left: 17px;
 }
 
 nav ul a {
