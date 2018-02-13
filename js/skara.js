@@ -7,4 +7,11 @@ $(document).scroll(function(){
     } else {
        $('.nav-wrapper').css({"background":"lightsteelblue"});
     }
+    
+    if($(this).scrollTop() > a)
+    {   
+       $('.nav-wrapper').css({"background":"lightsteelblue"});
+    } else {
+       $('.nav-wrapper').css({"background":"ghostwhite"});
+    }
 });
