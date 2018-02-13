@@ -16,6 +16,7 @@ nav ul a:hover {
 }
 
 /* ILLUSTRATION */
+
 .image1 {
     position: relative;
     width: 100%;
@@ -38,4 +39,31 @@ nav ul a:hover {
     font-family: 'Nanum Brush Script';
     font-size: 85px;
     color: lightgoldenrodyellow;
+}
+
+/* PARAGRAPH */
+
+.para3 {
+    font-family: 'Kavivanar';
+    padding-top: 47px;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 43px;
+}
+
+/*ILLUSTRATION 2*/
+
+.illustration1 {
+    position: relative;
+    width: 100%;
+    height: 140%;
+}
+
+.para4 {
+    position: absolute;
+    font-family: 'Nanum Brush Script';
+    top: 1598px;
+    left: 343px;
+    font-size: 97px;
+    color: floralwhite;
 }
