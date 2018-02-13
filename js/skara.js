@@ -35,7 +35,7 @@ $(document).scroll(function(){
             e.preventDefault();
             $('html,body').animate({
                 scrollTop: 0
-            }, 700);
+            }, 10);
         });
     }
     
