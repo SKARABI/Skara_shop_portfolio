@@ -35,15 +35,18 @@ nav ul a:hover {
     font-family: 'Nanum Brush Script';
     font-size: 47px;
     color: lightgoldenrodyellow;
+    background-color: brown;
 }
 
 .para2 {
     position: absolute;
     top: 412px;
-    left: 392px;
+    left: 0px;
     font-family: 'Nanum Brush Script';
-    font-size: 85px;
+    font-size: 89px;
     color: lightgoldenrodyellow;
+    background-color: brown;
+    text-align: center;
 }
 
 /* PARAGRAPH */
