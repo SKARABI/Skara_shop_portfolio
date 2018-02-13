@@ -14,4 +14,7 @@ $(document).scroll(function(){
     } else {
        $('.nav-wrapper').css({"background":"ghostwhite"});
     }
+          
+    
+
 });
