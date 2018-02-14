@@ -116,9 +116,7 @@ nav ul a:hover {
     opacity: 0;
     font-size: 43px;
 }
-.fas .fa-arrow-circle-up:hover {
-    background: whitesmoke;
-}
+
 .fa-arrow-circle-up.show {
     opacity: 1;
 }
