@@ -7,7 +7,7 @@ nav .nav-wrapper {
 }
 
 .logo {
-    margin-top: 7px;
+    margin-top: 4px;
     margin-left: 17px;
 }
 
@@ -101,6 +101,10 @@ nav ul a:hover {
 
 .card {
     margin: 1.5rem -108px 6rem 0;
+}
+
+p {
+    font-family: 'Satisfy';
 }
 
 /* SCROLLING THE BROWN ARROW */
