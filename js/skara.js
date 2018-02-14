@@ -8,7 +8,6 @@ $(document).scroll(function(){
        $('.nav-wrapper').css({"background":"darkseagreen"});
 
     }
-    
     if($(this).scrollTop() > a)
     {   
        $('.nav-wrapper').css({"background":"darkseagreen"});
