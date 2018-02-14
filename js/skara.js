@@ -39,5 +39,17 @@ $(document).scroll(function(){
         });
     }
     
+    /* LOGO ZOOM IN WHILE SCROLLING */
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        $(".logo").css({
+        width: (160)  + "px",
+        height:(80)  + "px",
+        });
+        $(".nav-wrapper").css({
+            height:(112)  + "%",
+            });
+        });
 
 });
