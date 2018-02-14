@@ -5,12 +5,13 @@ $(document).scroll(function(){
     {   
        $('.nav-wrapper').css({"background":"ghostwhite"});
     } else {
-       $('.nav-wrapper').css({"background":"antiquewhite"});
+       $('.nav-wrapper').css({"background":"darkseagreen"});
+
     }
     
     if($(this).scrollTop() > a)
     {   
-       $('.nav-wrapper').css({"background":"antiquewhite"});
+       $('.nav-wrapper').css({"background":"darkseagreen"});
     } else {
        $('.nav-wrapper').css({"background":"ghostwhite"});
     }
@@ -44,8 +45,8 @@ $(document).scroll(function(){
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         $(".logo").css({
-        width: (150)  + "px",
-        height:(80)  + "px",
+        width: (200)  + "px",
+        height:(60)  + "px",
         });
         $(".nav-wrapper").css({
             height:(107)  + "%",
