@@ -36,6 +36,9 @@ nav ul a:hover {
     font-size: 47px;
     color: lightgoldenrodyellow;
     background-color: brown;
+    /* FOR WAYPOINT PLUGIN */
+    opacity: 0;
+    transition: all 200ms ease-in;
 }
 
 .para2 {
@@ -47,6 +50,9 @@ nav ul a:hover {
     color: lightgoldenrodyellow;
     background-color: brown;
     text-align: center;
+     /* FOR WAYPOINT PLUGIN */
+     opacity: 0;
+     transition: all 200ms ease-in;
 }
 
 /* PARAGRAPH */
@@ -96,7 +102,7 @@ nav ul a:hover {
     margin: 1.5rem -108px 6rem 0;
 }
 
-/* SCROLLING ICON */
+/* SCROLLING THE BROWN ARROW */
 
 .fa-arrow-circle-up {
     position: fixed;
@@ -117,5 +123,12 @@ nav ul a:hover {
 }
 
 .fa-arrow-circle-up.show {
+    opacity: 1;
+}
+
+
+/* WAYPOINT PLUGIN */
+
+.js-para-animate {
     opacity: 1;
 }
