@@ -52,4 +52,6 @@ $(document).scroll(function(){
             });
         });
 
+        /* ZOOM IMAGES */
+     
 });
