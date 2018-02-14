@@ -32,7 +32,7 @@ nav ul a:hover {
 .para1 {
     position: absolute;
     top: 318px;
-    left: 410px;
+    left: 291px;
     font-family: 'Nanum Brush Script';
     font-size: 47px;
     color: lightgoldenrodyellow;
@@ -49,7 +49,7 @@ nav ul a:hover {
     font-family: 'Nanum Brush Script';
     font-size: 89px;
     color: lightgoldenrodyellow;
-    background-color: brown;
+    background-color: coral;
     text-align: center;
      /* FOR WAYPOINT PLUGIN */
      opacity: 0;
@@ -62,7 +62,7 @@ nav ul a:hover {
     font-family: 'Satisfy';
     padding-top: 47px;
     text-align: center;
-    font-size: 22px;
+    font-size: 19px;
     padding-bottom: 43px;
 }
 
@@ -78,8 +78,8 @@ nav ul a:hover {
     position: absolute;
     font-family: 'Nanum Brush Script';
     top: 1598px;
-    left: 343px;
-    font-size: 97px;
+    left: 380px;
+    font-size: 82px;
     color: floralwhite;
     background-color: blue;
 }
@@ -113,7 +113,7 @@ nav ul a:hover {
     height: 50px;
     text-align: center;
     line-height: 30px;
-    color: blueviolet;
+    color: crimson;
     cursor: pointer;
     border: 0;
     border-radius: 2px;

@@ -45,7 +45,7 @@ $(document).scroll(function(){
         var scroll = $(window).scrollTop();
         $(".logo").css({
         width: (200)  + "px",
-        height:(60)  + "px",
+        height:(70)  + "px",
         });
         $(".nav-wrapper").css({
             height:(107)  + "%",
