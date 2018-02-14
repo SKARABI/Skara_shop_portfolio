@@ -53,31 +53,37 @@ $(document).scroll(function(){
 
         });
 
-        /* I CAN ROTATE THE LOGO WHILE SCROLLING */
-
-var $img = $('.logo');
-var $win = $(window);
-$win.on('scroll', function(){
-    var top = $win.scrollTop();
-    $img.css('transform','rotate(' + top + 'deg)');
-})
-
 /* WAYPOINTS PLUGINS FOR PARA1 */
   var $para = $('.para1');
   
   $para.waypoint(function (){
       $para.addClass('js-para-animate');
-  }, {offset:'60%'});
+  }, {offset:'40%'});
 
 /** WAYPOINTS PLUGINS FOR PARA2 */
   var $par = $('.para2');
   
   $par.waypoint(function (){
       $par.addClass('js-para-animate');
-  }, {offset:'60%'});
+  }, {offset:'40%'});
+
+/** WAYPOINTS PLUGINS FOR PARA3 */
+var $p = $('.logo');
+  
+$p.waypoint(function (){
+    $p.addClass('js-para-animate');
+}, {offset:'100%'});
 
 
+        /* I CAN ROTATE THE LOGO WHILE SCROLLING 
 
+var $img = $('');
+var $win = $(window);
+$win.on('scroll', function(){
+    var top = $win.scrollTop();
+    $img.css('transform','rotate(' + top + 'deg)');
+})
+*/
 
 
 
