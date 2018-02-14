@@ -131,4 +131,20 @@ nav ul a:hover {
 
 .js-para-animate {
     opacity: 1;
+    animation: para-jiggle 250ms linear;
+}
+
+@keyframes para-jiggle {
+    0% {
+        transform: rotate(0);
+    }
+    33% {
+        transform: rotate(15deg);
+    }
+    66% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
