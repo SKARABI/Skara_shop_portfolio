@@ -38,7 +38,7 @@ $(document).scroll(function(){
             }, 10);
         });
     }
-    
+
     /* LOGO ZOOM IN WHILE SCROLLING */
 
     $(window).scroll(function() {
@@ -50,8 +50,11 @@ $(document).scroll(function(){
         $(".nav-wrapper").css({
             height:(112)  + "%",
             });
+
         });
 
-        /* ZOOM IMAGES */
-     
+
+
+
+
 });
