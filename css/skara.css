@@ -32,10 +32,10 @@ nav ul a:hover {
 .para1 {
     position: absolute;
     top: 318px;
-    left: 291px;
-    font-family: 'Nanum Brush Script';
-    font-size: 47px;
-    color: lightgoldenrodyellow;
+    left: 304px;
+    font-family: 'Amita';
+    font-size: 36px;
+    color: cornsilk;
     background-color: brown;
     /* FOR WAYPOINT PLUGIN */
     opacity: 0;
@@ -46,9 +46,9 @@ nav ul a:hover {
     position: absolute;
     top: 412px;
     left: 0px;
-    font-family: 'Nanum Brush Script';
+    font-family: 'Amita';
     font-size: 89px;
-    color: lightgoldenrodyellow;
+    color: currentColor;
     background-color: coral;
     text-align: center;
      /* FOR WAYPOINT PLUGIN */
